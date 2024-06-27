@@ -3,7 +3,7 @@ import React from 'react';
 const Info = () => {
   return (
     <div className='bg-black bg-opacity-60 px-6 sm:px-12 py-6'>
-      <div className='grid gap-x-10 lg:gap-x-5 gap-y-8 lg:gap-y-0 text-center md:text-start custom-grid-cols'>
+      <div className='grid gap-x-10 lg:gap-x-5 gap-y-8 md:gap-y-12 lg:gap-y-0 items-center text-center md:text-start custom-grid-cols'>
         <div>
           {/* Cart Row */}
           <div className='flex justify-center md:justify-start gap-x-2 items-center pb-7'>
@@ -14,15 +14,15 @@ const Info = () => {
             />
             <h5 className='font-semibold text-[#E1F4FF] text-lg'>6valley</h5>
           </div>
-          <div className='text-[#E4E4E4] text-sm'>
+          <div className='text-[#E4E4E4] text-sm px-1 sm:px-0'>
             Suspendisse ultrices at diam lectus nullam.<br /> 
             Nisl, sagittis viverra enim erat tortor ultricies<br /><br />
-            <pre>    1901 Thornridge Cir. Shiloh, Hawaii 81063</pre>
-            <pre>    support@example.cpm</pre>
+            &nbsp;&nbsp;&nbsp;&nbsp;1901 Thornridge Cir. Shiloh, Hawaii 81063
+            &nbsp;&nbsp;&nbsp;&nbsp;support@example.cpm
           </div>
-          <div className="flex justify-center md:justify-start gap-x-5 pt-7">
-            <img src="https://i.ibb.co/DRyqtKg/play-store.png" alt="Google Play Store" />
-            <img src="https://i.ibb.co/TgFxNZs/app-store.png" alt="Apple Store" />
+          <div className="flex flex-col lg:flex-row justify-center md:justify-start gap-5 pt-7">
+            <img src="https://i.ibb.co/DRyqtKg/play-store.png" className='w-3/5 lg:w-auto mx-auto md:mx-0' alt="Google Play Store" />
+            <img src="https://i.ibb.co/TgFxNZs/app-store.png" className='w-3/5 lg:w-auto mx-auto md:mx-0' alt="Apple Store" />
           </div>
         </div>
         {/* Accounts Row */}
