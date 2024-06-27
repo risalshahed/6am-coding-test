@@ -7,7 +7,7 @@ import { MdOutlineLocalMall } from "react-icons/md";
 
 const Topbar = () => {
   return (
-    <div className='flex justify-around items-center py-6'>
+    <div className='flex flex-col md:flex-row justify-between items-center gap-y-5 px-6 sm:px-12 py-6'>
       {/* logo */}
       <div className='flex justify-center md:justify-start gap-x-2 items-center'>
         <img
@@ -18,41 +18,36 @@ const Topbar = () => {
         <h5 className='font-semibold text-lg'>6valley</h5>
       </div>
       {/* search */}
-      <div className="flex gap-x-5 items-center border rounded-3xl pl-8 pr-0.5 py-0.5">
-        <button className='flex gap-x-5 items-center'>
+      <div className="flex gap-x-1 sm:gap-x-5 items-center border rounded-3xl pl-4 sm:pl-8 pr-0.5 py-0.5">
+        <button className='flex gap-x-0 sm:gap-x-5 items-center'>
           <RxHamburgerMenu size='24' />
           <IoIosArrowDown size='24' />
         </button>
-        {/* <div className=" "> */}
-          <input
-            type="text"
-            placeholder="Search for items or store..."
-            className="outline-none pl-5 py-2 border-l-2"
-          />
-        {/* </div> */}
-        <button className="bg-[#1B7FED] rounded-3xl rounded-l-none p-5 pl-10">
+        <input
+          type="text"
+          placeholder="Search for items or store..."
+          className="outline-none pl-1 sm:pl-5 py-2 border-l-2 w-11/12 sm:w-auto"
+        />
+        <button className="bg-[#1B7FED] rounded-3xl rounded-l-none p-5 sm:pl-10">
           <FiSearch color='white' size='24' />
         </button>
       </div>
       {/* profiles & icons */}
       <div className="flex gap-x-8 items-center">
-        <div className='bg-gray-500 rounded-full p-2 cursor-pointer'>
-          <FaUser color='white' size='32' />
+        <div className='bg-gray-500 rounded-full p-1.5 cursor-pointer'>
+          <FaUser color='white' size='24' />
         </div>
         <div className='text-gray-500 cursor-pointer relative'>
-          <RiShuffleLine size='32' />
-          <div className="absolute -top-2 px-2 py-px -right-4 bg-[#1B7FED] 
-          rounded-full text-center text-white">6</div>
+          <RiShuffleLine size='24' />
+          <div className="absolute -top-2.5 px-1.5 py-[0.5px] -right-4 bg-[#1B7FED] rounded-full text-center text-white text-sm">6</div>
         </div>
         <div className='text-gray-500 cursor-pointer relative'>
-          <FaHeart size='32' />
-          <div className="absolute -top-2 px-2 py-px -right-4 bg-[#1B7FED] 
-          rounded-full text-center text-white">6</div>
+          <FaHeart size='24' />
+          <div className="absolute -top-2.5 px-1.5 py-[0.5px] -right-4 bg-[#1B7FED] rounded-full text-center text-white text-sm">6</div>
         </div>
         <div className='text-gray-500 cursor-pointer relative'>
-          <MdOutlineLocalMall size='32' />
-          <div className="absolute -top-2 px-2 py-px -right-4 bg-[#1B7FED] 
-          rounded-full text-center text-white">6</div>
+          <MdOutlineLocalMall size='24' />
+          <div className="absolute -top-2.5 px-1.5 py-[0.5px] -right-4 bg-[#1B7FED] rounded-full text-center text-white text-sm">6</div>
         </div>
       </div>
     </div>

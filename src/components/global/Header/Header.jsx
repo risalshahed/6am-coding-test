@@ -1,7 +1,7 @@
-import React from 'react';
 import Discount from './Discount';
 import Shipping from './Shipping';
 import Topbar from './Topbar';
+import Navbar from './Navbar/Navbar';
 
 const Header = () => {
   return (
@@ -9,6 +9,7 @@ const Header = () => {
       <Discount />
       <Shipping />
       <Topbar />
+      <Navbar />
     </header>
   );
 };
