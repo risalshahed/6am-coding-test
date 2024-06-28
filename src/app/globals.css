@@ -19,6 +19,11 @@ html, body {
   background-image: url('https://i.ibb.co/jMQ9vrD/discount-bg.png');
 }
 
+/* single product styles */
+.single-product {
+  box-shadow: 5px 8px 18px gray;
+}
+
 footer {
   position: relative;
   background-image: url('https://i.ibb.co/MVn1rMG/footer-background.png');
