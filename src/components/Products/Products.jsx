@@ -10,7 +10,7 @@ const Products = () => {
   // console.log(allProducts);
 
   return (
-    <div className="py-5">
+    <div className="py-5 px-16">
       <h1 className="text-2xl font-bold mb-12 py-4 border-b border-b-gray-300">
         All Products
       </h1>
