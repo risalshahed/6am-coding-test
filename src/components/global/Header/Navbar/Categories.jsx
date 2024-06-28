@@ -5,7 +5,7 @@ const Categories = () => {
   return (
     <div>
       {/* parent */}
-      <div className='flex gap-x-0 sm:gap-x-5 items-center bg-[#1B7FED] text-white px-6 py-3 rounded-md cursor-pointer'>
+      <div className='flex gap-x-0 sm:gap-x-5 items-center bg-my-blue text-white px-6 py-3 rounded-md cursor-pointer'>
         <RxHamburgerMenu size='24' />
         <h6 className='font-bold pr-4'>Browser Category</h6>
         <IoIosArrowDown size='24' />

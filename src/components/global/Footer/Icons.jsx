@@ -4,12 +4,12 @@ import { FiPhoneCall } from "react-icons/fi";
 
 const Icons = () => {
   return (
-    <div className='flex flex-col sm:flex-row gap-y-5 justify-between items-center bg-blue-900 bg-opacity-70 px-6 sm:px-12 py-6'>
+    <div className='flex flex-col sm:flex-row gap-y-5 justify-between items-center bg-my-blue bg-opacity-70 px-6 sm:px-12 py-6'>
       <div className='visible md:invisible hidden md:block'>
         Nothing here!
       </div>
       {/* Social Icons */}
-      <div className="flex gap-x-5 text-blue-900">
+      <div className="flex gap-x-5 text-my-blue">
         <div className="bg-white flex justify-center items-center rounded-full w-6 h-6">
           <FaTwitter />
         </div>

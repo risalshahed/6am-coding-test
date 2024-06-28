@@ -6,7 +6,7 @@ const Shipping = () => {
   return (
     <div className='flex flex-col md:flex-row justify-between items-center gap-y-5 px-6 sm:px-12 py-6 bg-[#0D1D35] text-white'>
       <div className='flex items-center gap-x-5'>
-        <p className='bg-[#1B7FED] px-4 py-1 rounded-2xl'>Become a Seller</p>
+        <p className='bg-my-blue px-4 py-1 rounded-2xl'>Become a Seller</p>
         <p>Free Express Shipping</p>
       </div>
       {/* Icons */}

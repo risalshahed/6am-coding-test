@@ -28,7 +28,7 @@ const Topbar = () => {
           placeholder="Search for items or store..."
           className="outline-none pl-1 sm:pl-5 py-2 border-l-2 w-11/12 sm:w-auto"
         />
-        <button className="bg-[#1B7FED] rounded-3xl rounded-l-none p-5 sm:pl-10">
+        <button className="bg-my-blue rounded-3xl rounded-l-none p-5 sm:pl-10">
           <FiSearch color='white' size='24' />
         </button>
       </div>
@@ -39,15 +39,15 @@ const Topbar = () => {
         </div>
         <div className='text-gray-500 cursor-pointer relative'>
           <RiShuffleLine size='24' />
-          <div className="absolute -top-2.5 px-1.5 py-[0.5px] -right-4 bg-[#1B7FED] rounded-full text-center text-white text-sm">6</div>
+          <div className="absolute -top-2.5 px-1.5 py-[0.5px] -right-4 bg-my-blue rounded-full text-center text-white text-sm">6</div>
         </div>
         <div className='text-gray-500 cursor-pointer relative'>
           <FaHeart size='24' />
-          <div className="absolute -top-2.5 px-1.5 py-[0.5px] -right-4 bg-[#1B7FED] rounded-full text-center text-white text-sm">6</div>
+          <div className="absolute -top-2.5 px-1.5 py-[0.5px] -right-4 bg-my-blue rounded-full text-center text-white text-sm">6</div>
         </div>
         <div className='text-gray-500 cursor-pointer relative'>
           <MdOutlineLocalMall size='24' />
-          <div className="absolute -top-2.5 px-1.5 py-[0.5px] -right-4 bg-[#1B7FED] rounded-full text-center text-white text-sm">6</div>
+          <div className="absolute -top-2.5 px-1.5 py-[0.5px] -right-4 bg-my-blue rounded-full text-center text-white text-sm">6</div>
         </div>
       </div>
     </div>

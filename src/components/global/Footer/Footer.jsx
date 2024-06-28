@@ -11,7 +11,7 @@ const Footer = () => {
       {/* --------------- Info Column --------------- */}
       <Info />
       {/* --------------- Copyright Column --------------- */}
-      <p className='bg-blue-900 bg-opacity-70 text-white text-center px-6 sm:px-12 py-6'>
+      <p className='bg-my-blue bg-opacity-70 text-white text-center px-6 sm:px-12 py-6'>
         {year} COPYRIGHT All Rights Reserved By 6amMart.com
       </p>
     </footer>
