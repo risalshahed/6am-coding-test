@@ -3,7 +3,7 @@ import { IoIosArrowDown } from "react-icons/io";
 const Menus = () => {
   return (
     <nav>
-      <ul className='flex'>
+      <ul className='flex items-center'>
         <li className= 'px-6 py-3 cursor-pointer'>
           Home
         </li>
