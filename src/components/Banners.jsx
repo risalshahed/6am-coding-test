@@ -5,7 +5,7 @@ const Banners = () => {
       {/* Banners */}
       <div className='grid grid-cols-1 lg:grid-cols-3 gap-2 w-full lg:w-[75%]'>
         <div className='col-span-1 lg:col-span-2'>
-          <img className='w-full lg:w-auto h-full max-h-[400px] object-fill' src="https://i.ibb.co/Xpwwkw2/Banner.png" alt="Banner" />
+          <img className='w-full lg:w-auto h-full max-h-[400px] object-cover' src="https://i.ibb.co/Xpwwkw2/Banner.png" alt="Banner" />
         </div>
         <div className='row-span-1 lg:row-span-2 relative flex flex-col items-center text-white pt-5'>
           <img className='w-full lg:h-full' src="https://i.ibb.co/4gp7Dbh/Card.png" alt="Card" />
