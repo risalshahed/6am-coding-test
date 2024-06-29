@@ -18,7 +18,9 @@ const Products = () => {
       <div className='grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-7 justify-center items-stretch'>
         {
           loading ? (
-            allProducts?.slice(0, 15).map(product =><Skeleton />)
+            <>
+              <Skeleton /><Skeleton /><Skeleton /><Skeleton /><Skeleton />
+            </>
           ) : error ? (
             <h4 className='text-red-600 font-semibold text-2xl mx-auto'>
               {error}

@@ -7,7 +7,7 @@ import Services from "@/components/Services";
 
 export default function Home() {
   return (
-    <div>
+    <div className='relative'>
       <Header />
       <main className="flex min-h-screen flex-col items-center">
         <Banners />
