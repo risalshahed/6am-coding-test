@@ -13,8 +13,6 @@ const EachProduct = ({ product }) => {
   
   const averageRating = rating.length > 0 && !isNaN(rating[0].average) ? rating[0].average : 0;
 
-  // console.log(averageRating);
-
   return (
     <div className="relative pt-1 rounded-md single-product cursor-pointer hover:opacity-80 group">
       <img
@@ -23,7 +21,6 @@ const EachProduct = ({ product }) => {
         alt={name}
       />
       <div>
-        {/* <img src="https://i.postimg.cc/pdrzS7zc/Rectangle-8513.png" alt="rectangle" className="absolute top-0 z-10 hidden hover:block" /> */}
         <img className="absolute right-0 top-[20px] invisible group-hover:visible" src="https://i.postimg.cc/KcHPn92Z/add-to-bag.png" alt="bag" />
         <img className="absolute right-0 top-[60px] invisible group-hover:visible" src="https://i.postimg.cc/Gm0vfHtV/heart.png" alt="heart" />
         <img className="absolute right-0 top-[100px] invisible group-hover:visible" src="https://i.postimg.cc/x8hLndRk/teeny.png" alt="teeny" />

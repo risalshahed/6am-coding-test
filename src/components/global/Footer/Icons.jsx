@@ -10,23 +10,23 @@ const Icons = () => {
       </div>
       {/* Social Icons */}
       <div className="flex gap-x-5 text-my-blue">
-        <div className="bg-white flex justify-center items-center rounded-full w-6 h-6">
+        <div className="bg-white flex justify-center items-center rounded-full w-6 h-6 cursor-pointer">
           <FaTwitter />
         </div>
-        <div className="bg-white flex justify-center items-center rounded-md w-6 h-6">
+        <div className="bg-white flex justify-center items-center rounded-md w-6 h-6 cursor-pointer">
           <FaInstagram />
           
         </div>
-        <div className="bg-white flex justify-center items-end rounded-full w-6 h-6">
+        <div className="bg-white flex justify-center items-end rounded-full w-6 h-6 cursor-pointer">
           <FaFacebookF className='h-5' />
         </div>
-        <div className="bg-white flex justify-center items-center rounded-full w-6 h-6">
+        <div className="bg-white flex justify-center items-center rounded-full w-6 h-6 cursor-pointer">
           <FaYoutube />
         </div>
       </div>
       {/* Hotline */}
       <div className='flex gap-x-2 items-center text-white'>
-        <div>
+        <div className='cursor-pointer'>
           <FiPhoneCall className='w-8 h-8' />
         </div>
         <div>

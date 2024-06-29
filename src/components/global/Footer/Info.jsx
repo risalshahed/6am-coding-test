@@ -8,7 +8,7 @@ const Info = () => {
           {/* Cart Row */}
           <div className='flex justify-center md:justify-start gap-x-2 items-center pb-7'>
             <img
-              className='w-10 h-8'
+              className='w-10 h-8 cursor-pointer'
               src='https://i.ibb.co/bvhwz0M/cart-footer.png'
               alt="6valley"
             />
@@ -21,8 +21,8 @@ const Info = () => {
             &nbsp;&nbsp;&nbsp;&nbsp;support@example.cpm
           </div>
           <div className="flex flex-col lg:flex-row justify-center md:justify-start gap-5 pt-7">
-            <img src="https://i.ibb.co/DRyqtKg/play-store.png" className='w-3/5 lg:w-auto mx-auto md:mx-0' alt="Google Play Store" />
-            <img src="https://i.ibb.co/TgFxNZs/app-store.png" className='w-3/5 lg:w-auto mx-auto md:mx-0' alt="Apple Store" />
+            <img src="https://i.ibb.co/DRyqtKg/play-store.png" className='w-3/5 lg:w-auto mx-auto md:mx-0 cursor-pointer' alt="Google Play Store" />
+            <img src="https://i.ibb.co/TgFxNZs/app-store.png" className='w-3/5 lg:w-auto mx-auto md:mx-0 cursor-pointer' alt="Apple Store" />
           </div>
         </div>
         {/* Accounts Row */}
