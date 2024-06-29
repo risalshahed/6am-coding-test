@@ -15,7 +15,7 @@ const EachProduct = ({ product, isNewArrival }) => {
     rating.length > 0 && !isNaN(rating[0].average) ? rating[0].average : 0;
 
   return (
-    <div className="relative pt-1 rounded-md single-product cursor-pointer hover:opacity-80 group">
+    <div className="single-product relative pt-1 rounded-md cursor-pointer hover:opacity-80 group">
       <img
         className="mx-auto rounded-md"
         src={`https://6valley.6amtech.com/storage/app/public/product/${images[0]}`}

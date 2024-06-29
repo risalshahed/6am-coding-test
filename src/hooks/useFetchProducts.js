@@ -5,21 +5,21 @@ const useFetchProducts = (endpoint) => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    const fetchData = async () => {
-      setLoading(true);
-      setError(null);
-      try {
-        const response = await fetch(endpoint);
-        const data = await response.json();
-        setProducts(data.products);
-      } catch (error) {
-        setError('Failed to fetch products');
-      } finally {
-        setLoading(false);
-      }
-    };
+  const fetchData = async () => {
+    setLoading(true);
+    setError(null);
+    try {
+      const response = await fetch(endpoint);
+      const data = await response.json();
+      setProducts(data.products);
+    } catch (error) {
+      setError('Failed to fetch products');
+    } finally {
+      setLoading(false);
+    }
+  };
 
+  useEffect(() => {
     fetchData();
   }, [endpoint]);
 

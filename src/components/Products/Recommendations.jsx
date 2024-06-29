@@ -1,6 +1,6 @@
 'use client';
 
-import { Fragment, useState } from 'react';
+import { useState } from 'react';
 import Skeleton from '../Skeleton';
 import useCategoryEndpoint from '@/hooks/useCategoryEndpoint';
 import useFetchProducts from '@/hooks/useFetchProducts';

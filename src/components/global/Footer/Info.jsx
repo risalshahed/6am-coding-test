@@ -1,9 +1,7 @@
-import React from 'react';
-
 const Info = () => {
   return (
     <div className='bg-black bg-opacity-60 px-6 sm:px-12 py-6'>
-      <div className='grid gap-x-10 lg:gap-x-5 gap-y-8 md:gap-y-12 lg:gap-y-0 items-center text-center md:text-start custom-grid-cols'>
+      <div className='custom-grid-cols grid gap-x-10 lg:gap-x-5 gap-y-8 md:gap-y-12 lg:gap-y-0 items-center text-center md:text-start'>
         <div>
           {/* Cart Row */}
           <div className='flex justify-center md:justify-start gap-x-2 items-center pb-7'>
