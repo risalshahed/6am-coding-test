@@ -5,26 +5,30 @@ import { RxHamburgerMenu } from "react-icons/rx";
 import { IoIosArrowDown, IoIosArrowForward } from "react-icons/io";
 
 const Categories = () => {
-  const [isOpen, setIsOpen] = useState(() => window.innerWidth > 768);
+  const [isOpen, setIsOpen] = useState(false);
+
+  useEffect(() => {
+    if (typeof window !== "undefined") {
+      setIsOpen(window.innerWidth > 768);
+
+      const handleResize = () => {
+        if (window.innerWidth > 768) {
+          setIsOpen(true);
+        } else {
+          setIsOpen(false);
+        }
+      };
+
+      window.addEventListener('resize', handleResize);
+      return () => {
+        window.removeEventListener('resize', handleResize);
+      };
+    }
+  }, []);
 
   const toggleCategories = () => {
     setIsOpen(!isOpen);
   };
-
-  useEffect(() => {
-    const handleResize = () => {
-      if (window.innerWidth > 768 && !isOpen) {
-        setIsOpen(true);
-      } else if (window.innerWidth <= 768 && isOpen) {
-        setIsOpen(false);
-      }
-    };
-
-    window.addEventListener('resize', handleResize);
-    return () => {
-      window.removeEventListener('resize', handleResize);
-    };
-  }, [isOpen]);
 
   return (
     <div className='absolute'>

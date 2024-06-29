@@ -7,7 +7,7 @@ import { MdOutlineLocalMall } from "react-icons/md";
 
 const Topbar = () => {
   return (
-    <div className='flex flex-col md:flex-row justify-between items-center gap-y-5 px-6 sm:px-12 py-6'>
+    <div className='flex flex-col lg:flex-row justify-between items-center gap-y-5 px-6 sm:px-12 py-6'>
       {/* logo */}
       <div className='flex justify-center md:justify-start gap-x-2 items-center'>
         <img

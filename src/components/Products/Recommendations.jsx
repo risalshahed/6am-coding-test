@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { Fragment, useState } from 'react';
 import Skeleton from '../Skeleton';
 import useCategoryEndpoint from '@/hooks/useCategoryEndpoint';
 import useFetchProducts from '@/hooks/useFetchProducts';
@@ -8,8 +8,6 @@ import EachProduct from './EachProduct';
 
 const Recommendations = () => {
   const [selected, setSelected] = useState(0);
-
-  // <img src = "https://i.postimg.cc/5tpx9FyQ/image-26.png" />
 
   const category_titles = [
     'Featured Products', 'Top Rated', 'Best Selling', 'Latest Products', 'New Arrivals'
@@ -26,15 +24,14 @@ const Recommendations = () => {
 
   return (
     <div className='py-12 px-16'>
-      <h2 className='font-bold text-3xl text-center'>Recommended For You</h2>
+      <h2 className=' font-semibold text-xl text-center'>Recommended For You</h2>
       {/* Categories' Titles */}
       <div className="flex flex-wrap gap-x-12 gap-y-4 justify-center items-center py-10">
         {
           category_titles.map((title, index) =>
-            <>
+            <div key={index}>
               <h4
-                key={index}
-                className={`font-semibold cursor-pointer pb-3 px-3 ${selected === index && 'text-my-blue border-b-4 border-b-my-blue '}`}
+                className={`cursor-pointer pb-3 px-3 text-center ${selected === index && 'font-semibold text-my-blue border-b-4 border-b-my-blue '}`}
                 onClick={() => handleActivity(index)}
               >
                 {title}
@@ -44,7 +41,7 @@ const Recommendations = () => {
                   </div>
                 )}
               </h4>
-            </>
+            </div>
           )
         }        
       </div>
@@ -64,6 +61,7 @@ const Recommendations = () => {
               <EachProduct
                 key={product.id}
                 product={product}
+                isNewArrival={selected === len - 1}
               />
             )
           )

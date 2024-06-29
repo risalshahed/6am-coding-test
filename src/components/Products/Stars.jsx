@@ -21,7 +21,6 @@ const Stars = ({ rating }) => {
         Array(emptyStars)
         .fill()
         .map((_, index) => (
-          // <i key={index} className="far fa-star text-amber-500"></i>
           <CiStar />
         ))
       }

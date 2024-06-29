@@ -10,6 +10,7 @@ const Banners = () => {
           <img className='w-full lg:w-auto h-full' src="https://i.ibb.co/Xpwwkw2/Banner.png" alt="Banner" />
         </div>
         <div className='row-span-1 lg:row-span-2'>
+          {/* <img className='w-full lg:w-auto lg:h-full object-cover max-h-[400px]' src="https://i.ibb.co/4gp7Dbh/Card.png" alt="Card" /> */}
           <img className='w-full lg:w-auto lg:h-full' src="https://i.ibb.co/4gp7Dbh/Card.png" alt="Card" />
         </div>
         <div>

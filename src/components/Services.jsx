@@ -50,7 +50,7 @@ const Services = () => {
       <div className="px-3 py-5 sm:px-12 sm:py-8 flex flex-col lg:flex-row gap-y-5 justify-between items-center bg-[#09336F] rounded-xl my-8">
         <div className="text-white">
           <h4 className='text-xl font-semibold'>Newsletter</h4>
-          <p>Be the first one to know  about discounts, offers and events</p>
+          <p>Be the first one to know about discounts, offers and events</p>
         </div>
         <div className="relative flex items-center">
           <HiOutlineMail size='24' color="gray" className="-mr-8 z-10" />
