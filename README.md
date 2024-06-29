@@ -28,10 +28,10 @@ npm i
 - Technologies & Libraries: Next JS App Router, Tailwind CSS, react-icons library to display the icons
 
 ## Project Structure
-/6am-coding-test
-│ src
-│ ├── app
-│ │ ├── globals.css
+- 6am-coding-test
+- - src
+- - - app
+- - - - globals.css
 │ │ ├── layout.js
 │ │ ├── page.js
 │ │ ├── favicon.ico
