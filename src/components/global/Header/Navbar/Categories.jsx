@@ -31,7 +31,7 @@ const Categories = () => {
   };
 
   return (
-    <div className='absolute'>
+    <div className='absolute z-40'>
       {/* parent */}
       <div
         onClick={toggleCategories}

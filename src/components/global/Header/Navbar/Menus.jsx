@@ -22,7 +22,7 @@ const Menus = () => {
         />
       </div>
       {/* Menu Items */}
-      <ul className={`lg:flex items-center ${isMenuOpen ? 'block' : 'hidden'} lg:block absolute lg:static right-5 bg-white sm:bg-opacity-80 mt-4 lg:bg-none`}>
+      <ul className={`lg:flex items-center ${isMenuOpen ? 'block' : 'hidden'} lg:block absolute z-40 lg:static right-5 bg-white sm:bg-opacity-80 mt-4 lg:bg-none`}>
         <li className='px-6 pb-3 cursor-pointer border-b lg:border-b-0 border-gray-400 hover:bg-my-blue lg:hover:bg-white hover:text-white lg:hover:text-black'>
           Home
         </li>
