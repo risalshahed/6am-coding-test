@@ -28,42 +28,42 @@ npm i
 - Technologies & Libraries: Next JS App Router, Tailwind CSS, react-icons library to display the icons
 
 ## Project Structure
-- 6am-coding-test
- - src
-  - app
-   - globals.css
-    - layout.js
-    - page.js
-    - favicon.ico
+- ### 6am-coding-test
+  - src
+    - app
+      - globals.css
+      - layout.js
+      - page.js
+      - favicon.ico
 
-  - components
-   - global
-    - Footer
-     - Footer.jsx
-     - Icons.jsx
-     - Info.jsx
-    - Header
-     - Navbar
-      - Categories.jsx
-      - Menus.jsx
-      - Navbar.jsx
-     - Discount.jsx
-     - Header.jsx
-     - Shipping.jsx
-     - Topbar.jsx
-│ │ ├── Products
-│ │ │ ├── EachProduct.jsx
-│ │ │ ├── Products.jsx
-│ │ │ ├── Recommedations.jsx
-│ │ │ ├── Stars.jsx
-│ │ ├── Banners.jsx
-│ │ ├── Services.jsx
-│ │ ├── Skeleton.jsx
+    - components
+      - global
+        - Footer
+          - Footer.jsx
+          - Icons.jsx
+          - Info.jsx
+        - Header
+          - Navbar
+            - Categories.jsx
+            - Menus.jsx
+            - Navbar.jsx
+          - Discount.jsx
+          - Header.jsx
+          - Shipping.jsx
+          - Topbar.jsx
+      - Products
+        - EachProduct.jsx
+        - Products.jsx
+        - Recommedations.jsx
+        - Stars.jsx
+      - Banners.jsx
+      - Services.jsx
+      - Skeleton.jsx
 
-│ ├── hooks
-│ │ ├── useCategoryEndpoint.js
-│ │ ├── useFetchAllProducts
-│ │ ├── useFetchProducts
+    - hooks
+      - useCategoryEndpoint.js
+      - useFetchAllProducts
+      - useFetchProducts
 
-│ package.json
-│ tailwind.config.js
+- package.json
+- tailwind.config.js
