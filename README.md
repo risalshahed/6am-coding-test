@@ -29,28 +29,28 @@ npm i
 
 ## Project Structure
 - 6am-coding-test
-- - src
-- - - app
-- - - - globals.css
-│ │ ├── layout.js
-│ │ ├── page.js
-│ │ ├── favicon.ico
+ - src
+  - app
+   - globals.css
+    - layout.js
+    - page.js
+    - favicon.ico
 
-│ ├── components
-│ │ ├── global
-│ │ │ ├── Footer
-│ │ │ │ ├── Footer.jsx
-│ │ │ │ ├── Icons.jsx
-│ │ │ │ ├── Info.jsx
-│ │ │ ├── Header
-│ │ │ │ ├── Navbar
-│ │ │ │ │ ├── Categories.jsx
-│ │ │ │ │ ├── Menus.jsx
-│ │ │ │ │ ├── Navbar.jsx
-│ │ │ │ ├── Discount.jsx
-│ │ │ │ ├── Header.jsx
-│ │ │ │ ├── Shipping.jsx
-│ │ │ │ ├── Topbar.jsx
+  - components
+   - global
+    - Footer
+     - Footer.jsx
+     - Icons.jsx
+     - Info.jsx
+    - Header
+     - Navbar
+      - Categories.jsx
+      - Menus.jsx
+      - Navbar.jsx
+     - Discount.jsx
+     - Header.jsx
+     - Shipping.jsx
+     - Topbar.jsx
 │ │ ├── Products
 │ │ │ ├── EachProduct.jsx
 │ │ │ ├── Products.jsx
