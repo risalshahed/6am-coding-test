@@ -23,22 +23,22 @@ const Menus = () => {
       </div>
       {/* Menu Items */}
       <ul className={`lg:flex items-center ${isMenuOpen ? 'block' : 'hidden'} lg:block absolute lg:static right-5 bg-white bg-opacity-80 mt-4 lg:bg-none`}>
-        <li className='px-6 py-3 cursor-pointer border-b lg:border-b-0 border-gray-400 hover:bg-my-blue hover:text-white'>
+        <li className='px-6 pb-3 cursor-pointer border-b lg:border-b-0 border-gray-400 hover:bg-my-blue lg:hover:bg-white hover:text-white lg:hover:text-black'>
           Home
         </li>
-        <li className='flex gap-x-5 justify-between items-center px-6 py-3 cursor-pointer border-b lg:border-b-0 border-gray-400 hover:bg-my-blue hover:text-white'>
+        <li className='flex gap-x-5 justify-between items-center px-6 pb-3 cursor-pointer border-b lg:border-b-0 border-gray-400 hover:bg-my-blue lg:hover:bg-white hover:text-white lg:hover:text-black'>
           Offers
           <IoIosArrowDown />
         </li>
-        <li className='flex gap-x-5 justify-between items-center px-6 py-3 cursor-pointer border-b lg:border-b-0 border-gray-400 hover:bg-my-blue hover:text-white'>
+        <li className='flex gap-x-5 justify-between items-center px-6 pb-3 cursor-pointer border-b lg:border-b-0 border-gray-400 hover:bg-my-blue lg:hover:bg-white hover:text-white lg:hover:text-black'>
           Stores
           <IoIosArrowDown />
         </li>
-        <li className='flex gap-x-5 justify-between items-center px-6 py-3 cursor-pointer border-b lg:border-b-0 border-gray-400 hover:bg-my-blue hover:text-white'>
+        <li className='flex gap-x-5 justify-between items-center px-6 pb-3 cursor-pointer border-b lg:border-b-0 border-gray-400 hover:bg-my-blue lg:hover:bg-white hover:text-white lg:hover:text-black'>
           Brands
           <IoIosArrowDown />
         </li>
-        <li className='flex gap-x-5 justify-between items-center px-6 py-3 cursor-pointer border-b lg:border-b-0 border-gray-400 hover:bg-my-blue hover:text-white'>
+        <li className='flex gap-x-5 justify-between items-center px-6 pb-3 cursor-pointer border-b lg:border-b-0 border-gray-400 hover:bg-my-blue lg:hover:bg-white hover:text-white lg:hover:text-black'>
           Discounted Products
           <img src="https://i.ibb.co/fn8XxKF/teenyicons-discount-solid.png" alt="Tiny Discount" />
         </li>

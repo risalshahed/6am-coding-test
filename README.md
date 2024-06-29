@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 6am Coding Test
 
-## Getting Started
+[Live Website](https://6am-coding-test.vercel.app)
 
-First, run the development server:
+## Run the Project with the following steps
 
+- First, Clone this GitHub Repository
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone https://github.com/risalshahed/6am-coding-test.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Then, change the directory as follows
+```bash
+cd 6am-coding-test
+```
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- Finally, run the server using the command
+```bash
+npm i
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Project Overview
+- Pixel Perfect Responsive website across various screen sizes & devices
+- Components are well structured, different custom hooks used to fetch all of the data & the categorized data with several endpoints
+- Data is displayed in an appealing & user friendly way
+- Loading state handled with Skeleton
+- Error messages are displayed (if any) as well
+- Technologies & Libraries: Next JS App Router, Tailwind CSS, react-icons library to display the icons
 
-## Learn More
+## Project Structure
+/6am-coding-test
+│ src
+│ ├── app
+│ │ ├── globals.css
+│ │ ├── layout.js
+│ │ ├── page.js
+│ │ ├── favicon.ico
 
-To learn more about Next.js, take a look at the following resources:
+│ ├── components
+│ │ ├── global
+│ │ │ ├── Footer
+│ │ │ │ ├── Footer.jsx
+│ │ │ │ ├── Icons.jsx
+│ │ │ │ ├── Info.jsx
+│ │ │ ├── Header
+│ │ │ │ ├── Navbar
+│ │ │ │ │ ├── Categories.jsx
+│ │ │ │ │ ├── Menus.jsx
+│ │ │ │ │ ├── Navbar.jsx
+│ │ │ │ ├── Discount.jsx
+│ │ │ │ ├── Header.jsx
+│ │ │ │ ├── Shipping.jsx
+│ │ │ │ ├── Topbar.jsx
+│ │ ├── Products
+│ │ │ ├── EachProduct.jsx
+│ │ │ ├── Products.jsx
+│ │ │ ├── Recommedations.jsx
+│ │ │ ├── Stars.jsx
+│ │ ├── Banners.jsx
+│ │ ├── Services.jsx
+│ │ ├── Skeleton.jsx
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+│ ├── hooks
+│ │ ├── useCategoryEndpoint.js
+│ │ ├── useFetchAllProducts
+│ │ ├── useFetchProducts
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+│ package.json
+│ tailwind.config.js

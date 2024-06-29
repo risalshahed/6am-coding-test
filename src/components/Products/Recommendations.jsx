@@ -24,7 +24,7 @@ const Recommendations = () => {
 
   return (
     <div className='py-12 px-16'>
-      <h2 className=' font-semibold text-xl text-center'>Recommended For You</h2>
+      <h2 className=' font-semibold text-2xl text-center'>Recommended For You</h2>
       {/* Categories' Titles */}
       <div className="flex flex-wrap gap-x-12 gap-y-4 justify-center items-center py-10">
         {
