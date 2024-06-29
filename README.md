@@ -1,6 +1,6 @@
 # 6am Coding Test
 
-[Live Website](https://6am-coding-test.vercel.app)
+## [Live Website](https://6am-coding-test.vercel.app)
 
 ## Run the Project with the following steps
 
