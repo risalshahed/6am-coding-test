@@ -22,7 +22,7 @@ npm i
 ## Project Overview
 - Pixel Perfect Responsive website across various screen sizes & devices
 - Components are well structured, different custom hooks used to fetch all of the data & the categorized data with several endpoints
-- Data is displayed in an appealing & user friendly way
+- Data is displayed in an appealing & a user friendly way
 - Loading state handled with Skeleton
 - Error messages are displayed (if any) as well
 - Technologies & Libraries: Next JS App Router, Tailwind CSS, react-icons library to display the icons
